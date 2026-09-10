@@ -1,0 +1,302 @@
+[
+  {
+    "id": "unitree-g1",
+    "url": "/models/robots/unitree-g1.glb",
+    "source": "https://github.com/unitreerobotics/unitree_ros",
+    "revision": "7d6075f7f58588b189b940130e3edab3c839b2df",
+    "license": "BSD-3-Clause",
+    "urdf": "unitree_ros/robots/g1_description/g1_29dof.urdf",
+    "visuals": 36,
+    "links": 40,
+    "joints": 39,
+    "bytes": 7679248,
+    "bounds": [
+      [
+        -0.07257411628961563,
+        -0.18157026727622005,
+        -0.7922728974794127
+      ],
+      [
+        0.37309859874587026,
+        0.18158026727622006,
+        0.5305725932121277
+      ]
+    ],
+    "redistributable": true
+  },
+  {
+    "id": "unitree-h1",
+    "url": "/models/robots/unitree-h1.glb",
+    "source": "https://github.com/unitreerobotics/unitree_ros",
+    "revision": "7d6075f7f58588b189b940130e3edab3c839b2df",
+    "license": "BSD-3-Clause",
+    "urdf": "unitree_ros/robots/h1_description/urdf/h1.urdf",
+    "visuals": 24,
+    "links": 25,
+    "joints": 24,
+    "bytes": 6772948,
+    "bounds": [
+      [
+        -0.10245000571012497,
+        -0.26202930700009386,
+        -1.044200007748604
+      ],
+      [
+        0.2885000107288361,
+        0.26202930700009386,
+        0.7617530226707458
+      ]
+    ],
+    "redistributable": true
+  },
+  {
+    "id": "unitree-a1",
+    "url": "/models/robots/unitree-a1.glb",
+    "source": "https://github.com/unitreerobotics/unitree_ros",
+    "revision": "7d6075f7f58588b189b940130e3edab3c839b2df",
+    "license": "BSD-3-Clause",
+    "urdf": "unitree_ros/robots/a1_description/urdf/a1.urdf",
+    "visuals": 19,
+    "links": 23,
+    "joints": 22,
+    "bytes": 3933988,
+    "bounds": [
+      [
+        -0.22650000008940696,
+        -0.1507960395693779,
+        -0.4199925929307938
+      ],
+      [
+        0.28070980310440063,
+        0.1507960395693779,
+        0.05849616974592209
+      ]
+    ],
+    "redistributable": true
+  },
+  {
+    "id": "unitree-aliengo",
+    "url": "/models/robots/unitree-aliengo.glb",
+    "source": "https://github.com/unitreerobotics/unitree_ros",
+    "revision": "7d6075f7f58588b189b940130e3edab3c839b2df",
+    "license": "BSD-3-Clause",
+    "urdf": "unitree_ros/robots/aliengo_description/urdf/aliengo.urdf",
+    "visuals": 35,
+    "links": 31,
+    "joints": 30,
+    "bytes": 2568680,
+    "bounds": [
+      [
+        -1.2840069467544555,
+        -0.8652109721183777,
+        -11.13582706451416
+      ],
+      [
+        1.3190469676971435,
+        0.8652109721183777,
+        1.3721779584884644
+      ]
+    ],
+    "redistributable": true
+  },
+  {
+    "id": "unitree-b1",
+    "url": "/models/robots/unitree-b1.glb",
+    "source": "https://github.com/unitreerobotics/unitree_ros",
+    "revision": "7d6075f7f58588b189b940130e3edab3c839b2df",
+    "license": "BSD-3-Clause",
+    "urdf": "unitree_ros/robots/b1_description/xacro/b1.urdf",
+    "visuals": 31,
+    "links": 36,
+    "joints": 35,
+    "bytes": 20670628,
+    "bounds": [
+      [
+        -0.48507601022720337,
+        -0.23075285881757734,
+        -0.7402699947357178
+      ],
+      [
+        0.48938798904418945,
+        0.2307466599345207,
+        0.09123498201370239
+      ]
+    ],
+    "redistributable": true
+  },
+  {
+    "id": "unitree-b2",
+    "url": "/models/robots/unitree-b2.glb",
+    "source": "https://github.com/unitreerobotics/unitree_ros",
+    "revision": "7d6075f7f58588b189b940130e3edab3c839b2df",
+    "license": "BSD-3-Clause",
+    "urdf": "unitree_ros/robots/b2_description/urdf/b2_description.urdf",
+    "visuals": 24,
+    "links": 37,
+    "joints": 36,
+    "bytes": 6810928,
+    "bounds": [
+      [
+        -0.4233240109695758,
+        -0.22910096799995283,
+        -0.7351119876425813
+      ],
+      [
+        0.43103699268185536,
+        0.22910096922014378,
+        0.24250006266880603
+      ]
+    ],
+    "redistributable": true
+  },
+  {
+    "id": "unitree-go1",
+    "url": "/models/robots/unitree-go1.glb",
+    "source": "https://github.com/unitreerobotics/unitree_ros",
+    "revision": "7d6075f7f58588b189b940130e3edab3c839b2df",
+    "license": "BSD-3-Clause",
+    "urdf": "unitree_ros/robots/go1_description/urdf/go1.urdf",
+    "visuals": 39,
+    "links": 46,
+    "joints": 45,
+    "bytes": 32832072,
+    "bounds": [
+      [
+        -0.23628654060363768,
+        -0.14700401033461094,
+        -0.4482619022130966
+      ],
+      [
+        0.29925909638404846,
+        0.14700401033461094,
+        0.07134293764829636
+      ]
+    ],
+    "redistributable": true
+  },
+  {
+    "id": "unitree-go2",
+    "url": "/models/robots/unitree-go2.glb",
+    "source": "https://github.com/unitreerobotics/unitree_ros",
+    "revision": "7d6075f7f58588b189b940130e3edab3c839b2df",
+    "license": "BSD-3-Clause",
+    "urdf": "unitree_ros/robots/go2_description/urdf/go2_description.urdf",
+    "visuals": 33,
+    "links": 42,
+    "joints": 41,
+    "bytes": 7837804,
+    "bounds": [
+      [
+        -0.24186198363169523,
+        -0.16201295346729705,
+        -0.4489149898470163
+      ],
+      [
+        0.33195799589157104,
+        0.16201302476592486,
+        0.08883398328690617
+      ]
+    ],
+    "redistributable": true
+  },
+  {
+    "id": "unitree-laikago",
+    "url": "/models/robots/unitree-laikago.glb",
+    "source": "https://github.com/unitreerobotics/unitree_ros",
+    "revision": "7d6075f7f58588b189b940130e3edab3c839b2df",
+    "license": "BSD-3-Clause",
+    "urdf": "unitree_ros/robots/laikago_description/urdf/laikago.urdf",
+    "visuals": 74,
+    "links": 21,
+    "joints": 20,
+    "bytes": 1057868,
+    "bounds": [
+      [
+        -11.06692886352539,
+        -7.598424911499023,
+        -11.155511856079102
+      ],
+      [
+        11.60629940032959,
+        7.598424911499023,
+        4.3622050285339355
+      ]
+    ],
+    "redistributable": true
+  },
+  {
+    "id": "fourier-gr1",
+    "url": "/models/robots/fourier-gr1.glb",
+    "source": "https://github.com/FFTAI/Wiki-GRx-Models",
+    "revision": "7d96c758f048fe1bf92b3258864d94771ae0c093",
+    "license": "GPL-3.0",
+    "urdf": "wiki_grx/GRX/GR1/gr1t2/basic_urdf/gr1t2_dummy_hand.urdf",
+    "visuals": 37,
+    "links": 39,
+    "joints": 38,
+    "bytes": 7977236,
+    "bounds": [
+      [
+        -0.15149045598506927,
+        -0.26340134425556916,
+        -0.9221208267164229
+      ],
+      [
+        0.1743181689977646,
+        0.2635502042555692,
+        0.7249841318845749
+      ]
+    ],
+    "redistributable": true
+  },
+  {
+    "id": "fourier-n1",
+    "url": "/models/robots/fourier-n1.glb",
+    "source": "https://github.com/FFTAI/Wiki-GRx-Models/tree/FourierN1",
+    "revision": "f8e683f00d1d99deb882deb9dfce6030095b466a",
+    "license": "Apache-2.0",
+    "urdf": "wiki_n1/N1/urdf/N1_raw.urdf",
+    "visuals": 29,
+    "links": 29,
+    "joints": 28,
+    "bytes": 7351604,
+    "bounds": [
+      [
+        -0.07497125118970871,
+        -0.22065000178813934,
+        -0.6994661554352398
+      ],
+      [
+        0.2349999993278624,
+        0.22065000178813934,
+        0.541546103143692
+      ]
+    ],
+    "redistributable": true
+  },
+  {
+    "id": "agibot-x1",
+    "url": "/models/robots/agibot-x1.local.glb",
+    "source": "https://github.com/AgibotTech/agibot_x1_train",
+    "revision": "e6651b9ab843fd1b1be70c087bfb7e8b28e44ccd",
+    "license": "No license declared",
+    "urdf": "agibot_x1/resources/robots/x1/urdf/x1.urdf",
+    "visuals": 58,
+    "links": 58,
+    "joints": 57,
+    "bytes": 22909124,
+    "bounds": [
+      [
+        -0.13292513795091554,
+        -0.26069826425881204,
+        -0.6255365276775983
+      ],
+      [
+        0.10736407473648305,
+        0.2608170912015155,
+        0.6417815499642485
+      ]
+    ],
+    "redistributable": false
+  }
+]

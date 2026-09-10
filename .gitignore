@@ -1,0 +1,6 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env*
+!.env.example
+public/models/robots/agibot-x1.local.glb

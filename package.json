@@ -1,0 +1,35 @@
+{
+  "name": "robot-studio",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3017",
+    "build": "vite build",
+    "check": "tsc --noEmit",
+    "validate": "node scripts/validate-catalog.mjs && node scripts/validate-models.mjs",
+    "validate:models": "node scripts/validate-models.mjs"
+  },
+  "dependencies": {
+    "@types/three": "^0.159.0",
+    "lucide-react": "1.31.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "three": "^0.159.0",
+    "urdf-loader": "^0.12.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "vite": "8.0.13"
+  },
+  "type": "module",
+  "license": "MIT"
+}

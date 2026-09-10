@@ -1,0 +1,2 @@
+yourdfpy==0.0.60
+trimesh[easy]==5.1.0
