@@ -22,15 +22,21 @@ class ModelSource:
 
 MODELS = (
     ModelSource("unitree-g1", "https://github.com/unitreerobotics/unitree_ros", "7d6075f7f58588b189b940130e3edab3c839b2df", "BSD-3-Clause", "unitree_ros/robots/g1_description/g1_29dof.urdf"),
+    ModelSource("unitree-g1-23dof", "https://github.com/unitreerobotics/unitree_ros", "7d6075f7f58588b189b940130e3edab3c839b2df", "BSD-3-Clause", "unitree_ros/robots/g1_description/g1_23dof.urdf"),
     ModelSource("unitree-h1", "https://github.com/unitreerobotics/unitree_ros", "7d6075f7f58588b189b940130e3edab3c839b2df", "BSD-3-Clause", "unitree_ros/robots/h1_description/urdf/h1.urdf"),
+    ModelSource("unitree-h1-2", "https://github.com/unitreerobotics/unitree_ros", "7d6075f7f58588b189b940130e3edab3c839b2df", "BSD-3-Clause", "unitree_ros/robots/h1_2_description/h1_2.urdf"),
+    ModelSource("unitree-h1-2-handless", "https://github.com/unitreerobotics/unitree_ros", "7d6075f7f58588b189b940130e3edab3c839b2df", "BSD-3-Clause", "unitree_ros/robots/h1_2_description/h1_2_handless.urdf"),
+    ModelSource("unitree-h1-2-ftp-hand", "https://github.com/unitreerobotics/unitree_ros", "7d6075f7f58588b189b940130e3edab3c839b2df", "BSD-3-Clause", "unitree_ros/robots/h1_2_description/h1_2_with_FTP_hand.urdf"),
     ModelSource("unitree-a1", "https://github.com/unitreerobotics/unitree_ros", "7d6075f7f58588b189b940130e3edab3c839b2df", "BSD-3-Clause", "unitree_ros/robots/a1_description/urdf/a1.urdf"),
-    ModelSource("unitree-aliengo", "https://github.com/unitreerobotics/unitree_ros", "7d6075f7f58588b189b940130e3edab3c839b2df", "BSD-3-Clause", "unitree_ros/robots/aliengo_description/urdf/aliengo.urdf"),
     ModelSource("unitree-b1", "https://github.com/unitreerobotics/unitree_ros", "7d6075f7f58588b189b940130e3edab3c839b2df", "BSD-3-Clause", "unitree_ros/robots/b1_description/xacro/b1.urdf"),
     ModelSource("unitree-b2", "https://github.com/unitreerobotics/unitree_ros", "7d6075f7f58588b189b940130e3edab3c839b2df", "BSD-3-Clause", "unitree_ros/robots/b2_description/urdf/b2_description.urdf"),
     ModelSource("unitree-go1", "https://github.com/unitreerobotics/unitree_ros", "7d6075f7f58588b189b940130e3edab3c839b2df", "BSD-3-Clause", "unitree_ros/robots/go1_description/urdf/go1.urdf"),
     ModelSource("unitree-go2", "https://github.com/unitreerobotics/unitree_ros", "7d6075f7f58588b189b940130e3edab3c839b2df", "BSD-3-Clause", "unitree_ros/robots/go2_description/urdf/go2_description.urdf"),
-    ModelSource("unitree-laikago", "https://github.com/unitreerobotics/unitree_ros", "7d6075f7f58588b189b940130e3edab3c839b2df", "BSD-3-Clause", "unitree_ros/robots/laikago_description/urdf/laikago.urdf"),
+    # unitree-aliengo omitted: yourdfpy/trimesh export corrupts its mirrored thigh transforms; app falls back to live URDF loading.
+    # unitree-laikago removed: same trimesh mirrored-mesh export corruption, and the robot is no longer offered in the catalog.
     ModelSource("fourier-gr1", "https://github.com/FFTAI/Wiki-GRx-Models", "7d96c758f048fe1bf92b3258864d94771ae0c093", "GPL-3.0", "wiki_grx/GRX/GR1/gr1t2/basic_urdf/gr1t2_dummy_hand.urdf"),
+    ModelSource("fourier-gr2", "https://github.com/FFTAI/Wiki-GRx-Models", "7d96c758f048fe1bf92b3258864d94771ae0c093", "GPL-3.0", "wiki_grx/GRX/GR2/gr2v3_8_7/basic_urdf/gr2v3_8_7.urdf"),
+    ModelSource("fourier-gr3", "https://github.com/FFTAI/Wiki-GRx-Models", "7d96c758f048fe1bf92b3258864d94771ae0c093", "GPL-3.0", "wiki_grx/GRX/GR3/gr3v2_1_1/basic_urdf/gr3v2_1_1.urdf"),
     ModelSource("fourier-n1", "https://github.com/FFTAI/Wiki-GRx-Models/tree/FourierN1", "f8e683f00d1d99deb882deb9dfce6030095b466a", "Apache-2.0", "wiki_n1/N1/urdf/N1_raw.urdf"),
     ModelSource("agibot-x1", "https://github.com/AgibotTech/agibot_x1_train", "e6651b9ab843fd1b1be70c087bfb7e8b28e44ccd", "No license declared", "agibot_x1/resources/robots/x1/urdf/x1.urdf", False),
 )

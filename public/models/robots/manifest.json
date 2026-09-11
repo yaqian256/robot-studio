@@ -75,31 +75,6 @@
     "redistributable": true
   },
   {
-    "id": "unitree-aliengo",
-    "url": "/models/robots/unitree-aliengo.glb",
-    "source": "https://github.com/unitreerobotics/unitree_ros",
-    "revision": "7d6075f7f58588b189b940130e3edab3c839b2df",
-    "license": "BSD-3-Clause",
-    "urdf": "unitree_ros/robots/aliengo_description/urdf/aliengo.urdf",
-    "visuals": 35,
-    "links": 31,
-    "joints": 30,
-    "bytes": 2568680,
-    "bounds": [
-      [
-        -1.2840069467544555,
-        -0.8652109721183777,
-        -11.13582706451416
-      ],
-      [
-        1.3190469676971435,
-        0.8652109721183777,
-        1.3721779584884644
-      ]
-    ],
-    "redistributable": true
-  },
-  {
     "id": "unitree-b1",
     "url": "/models/robots/unitree-b1.glb",
     "source": "https://github.com/unitreerobotics/unitree_ros",
@@ -195,31 +170,6 @@
         0.33195799589157104,
         0.16201302476592486,
         0.08883398328690617
-      ]
-    ],
-    "redistributable": true
-  },
-  {
-    "id": "unitree-laikago",
-    "url": "/models/robots/unitree-laikago.glb",
-    "source": "https://github.com/unitreerobotics/unitree_ros",
-    "revision": "7d6075f7f58588b189b940130e3edab3c839b2df",
-    "license": "BSD-3-Clause",
-    "urdf": "unitree_ros/robots/laikago_description/urdf/laikago.urdf",
-    "visuals": 74,
-    "links": 21,
-    "joints": 20,
-    "bytes": 1057868,
-    "bounds": [
-      [
-        -11.06692886352539,
-        -7.598424911499023,
-        -11.155511856079102
-      ],
-      [
-        11.60629940032959,
-        7.598424911499023,
-        4.3622050285339355
       ]
     ],
     "redistributable": true

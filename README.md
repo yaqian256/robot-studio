@@ -2,10 +2,12 @@
 
 An interactive 3D explorer for the Unitree, Fourier, and AgiBot models listed in [Awesome Robot Descriptions](https://github.com/robot-descriptions/awesome-robot-descriptions). Rotate each complete robot, inspect its functional assemblies and individual visual meshes, isolate a part, and move continuously from the assembled model to a tidy parts inventory.
 
+This repo references [ashemag/model-x-studio](https://github.com/ashemag/model-x-studio).
+
 ## Included robots
 
 - **Unitree humanoids:** G1, H1
-- **Unitree quadrupeds:** A1, Aliengo, B1, B2, Go1, Go2, Laikago
+- **Unitree quadrupeds:** A1, Aliengo, B1, B2, Go1, Go2
 - **Fourier humanoids:** GR-1, N1
 - **AgiBot humanoid:** X1
 
@@ -19,6 +21,12 @@ npm run dev
 ```
 
 Open <http://localhost:3017>.
+
+## Vercel
+
+Import this repository into Vercel with the repository root as the project root. The checked-in `vercel.json` builds the app with `npm run build` and serves `dist`. No environment variables or database are required.
+
+Configuration reference: https://vercel.com/docs/project-configuration/vercel-json
 
 ## Validate
 
@@ -51,12 +59,8 @@ python scripts/build-models.py --source-root C:\path\to\robot-model-sources
 
 The script pins and records the source revisions, reads visual geometry only, and writes `manifest.json` beside the generated GLBs. See [`public/models/robots/ATTRIBUTION.md`](public/models/robots/ATTRIBUTION.md) for model provenance.
 
-### AgiBot X1 license boundary
-
-The upstream AgiBot X1 repository does not declare a redistribution license. Robot Studio therefore does not track its converted asset. The browser can load the original URDF and meshes directly from the upstream repository. For faster local loading, developers who have obtained the source may generate the ignored local cache:
+`build-models.py` also supports building models from upstream repositories that don't declare a redistribution license. Pass `--include-unlicensed` to generate the local-only cache for those models; the resulting `*.local.glb` assets are excluded from version control.
 
 ```sh
 python scripts/build-models.py --source-root C:\path\to\robot-model-sources --include-unlicensed
 ```
-
-This creates `public/models/robots/agibot-x1.local.glb`, which remains excluded from version control.
